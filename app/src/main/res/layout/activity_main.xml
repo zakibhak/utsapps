@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="304dp"
+        android:layout_height="110dp"
+        android:text="Assalamualaikum, Apakah kamu sudah membaca Al-Quran hari ini?"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <Button
+        android:id="@+id/button_sudah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <Button
+        android:id="@+id/button_belum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Belum"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="328dp"
+        android:layout_height="373dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:text="Sebaik-baik manusia yang mempelajari dan mengajarkan Alquran. Sabda Nabi Muhammad ﷺ: “Sebaik-baik kalian adalah siapa yang memperlajari Alquran dan mengamalkannya.” (HR. Bukhari)
+Membaca Alquran juga mendatangkan pahala. Rasulullah ﷺ bersabda: “Siapa saja membaca satu huruf dari Kitab Allah (Alquran), maka baginya satu kebaikan, dan satu kebaikan itu dibalas dengan sepuluh kali lipatnya.” (HR. At-Tirmidzi).
+Dikutip dari buku Tajwid Lengkap Asy-Syafi’i karya Abu Ya’la Kurnaedi, pahala yang disebutkan oleh Abdullah bin Mas’ud adalah: “Aku mendengar Nabi ﷺ bersabda: ‘Barang siapa membaca satu huruf dari Kitabullah maka dia mendapatkan satu pahala, dan satu pahala itu dilipatgandakan menjadi sepuluh pahala. Aku tidak mengatakan alif lam mim sebagai satu huruf, tetapi alif satu huruf, lam satu huruf, dan mim satu huruf'”."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
